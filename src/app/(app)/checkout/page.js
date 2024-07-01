@@ -10,6 +10,7 @@ import { addItem } from '@/redux/cart/cart.actions';
 const Products = ()  => {
 
   const { Produtos } = useStore();
+  const [cart, setCart] = useState([]);
   const [product, setProduct] = useState([]);
   const dispatch = useDispatch();
 
@@ -42,6 +43,16 @@ useEffect(() => {
           </li>
         ))}
       </ul>
+      <div className="mt-8">
+        <h2 className="text-2xl font-bold mb-4">Carrinho</h2>
+        <ul>
+          {cart.map((item, index) => (
+            <li key={index} className="bg-white shadow-md p-4 rounded-md mb-2">
+              {item.nome} - R$ {item.preco}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import axios from '@/lib/axios'
 export const useStore = () => {
 
     const csrf = () => axios.get('/sanctum/csrf-cookie')
-        const { data:Produto } =  useSWR('/api/produtos', () =>
+        const { data: Produtos } =  useSWR('/api/produtos', () =>
             axios
                 .get('/api/produtos')
                 .then(res => res.data)
@@ -14,6 +14,6 @@ export const useStore = () => {
         )
 
     return {
-        Produto,
+        Produtos,
     }
 }
