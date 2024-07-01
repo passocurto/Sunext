@@ -100,10 +100,34 @@ cd Sunext
     ```
     http://localhost:3000
     ```
+    
 
 ## Estrutura do Projeto
 
 - **api/**: Contém a aplicação Laravel.
 - **client/**: Contém a aplicação Next.js.
+
+
+
+
+
+#Banco de Dados
+![image](https://github.com/passocurto/Sunext/assets/1081320/27126e91-ea07-4074-bd70-87fd0900ec4b)
+
+#login
+![image](https://github.com/passocurto/Sunext/assets/1081320/edf3ecde-f51a-4f60-bec1-f024974c2ed9)
+
+#Registrar usuário
+![image](https://github.com/passocurto/Sunext/assets/1081320/8e721803-42d1-4ddc-a66d-5a248b54c96a)
+
+Dashbord
+![image](https://github.com/passocurto/Sunext/assets/1081320/7c91e37e-579e-4e03-ab4d-9067db60d4a1)
+
+
+
+
+
+
+
 
 Sinta-se à vontade para explorar o código e me enviar qualquer feedback ou dúvida!
