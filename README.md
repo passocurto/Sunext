@@ -1,6 +1,3 @@
-Claro, aqui está o texto atualizado com a informação sobre o banco de dados PostgreSQL:
-
----
 
 # Desafio de Demonstração de Habilidades com Next.js e Laravel
 
