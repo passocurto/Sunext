@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProdutosTable extends Migration
+class CreateProdutoTable extends Migration
 {
     /**
      * Run the migrations.
@@ -19,6 +19,7 @@ class CreateProdutosTable extends Migration
             $table->text('descricao')->nullable();
             $table->decimal('preco', 10, 2);
             $table->integer('quantidade');
+            $table->string('imageUrl');
             $table->timestamps();
         });
     }

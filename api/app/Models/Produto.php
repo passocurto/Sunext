@@ -14,7 +14,8 @@ class Produto extends Model
         'nome',
         'descricao',
         'preco',
-        'quantidade'
+        'quantidade',
+        'imageUrl',
     ];
 
     public function pedidos()

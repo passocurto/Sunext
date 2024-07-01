@@ -15,7 +15,7 @@ class Pedido extends Model
         'status'
     ];
 
-    public function produtos()
+    public function produto()
     {
         return $this->belongsToMany(Produto::class, 'produto_pedido')
             ->withPivot('quantidade', 'preco')
